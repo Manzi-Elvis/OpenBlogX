@@ -242,7 +242,7 @@
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent;
+    @apply bg-linear-to-r from-accent to-secondary bg-clip-text text-transparent;
   }
 }
 
