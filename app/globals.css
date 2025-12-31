@@ -225,7 +225,7 @@
   }
 
   .card-gradient {
-    @apply rounded-xl bg-gradient-to-br from-card to-card/50 border border-accent/10 p-6 transition-all duration-300 hover:shadow-xl;
+    @apply rounded-xl bg-linear-to-br from-card to-card/50 border border-accent/10 p-6 transition-all duration-300 hover:shadow-xl;
   }
 
   .focus-ring {
