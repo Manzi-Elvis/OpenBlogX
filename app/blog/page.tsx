@@ -226,7 +226,7 @@ export default function BlogPage() {
         </section>
 
         {/* Search and Filters */}
-        <section className="border-b border-border bg-gradient-to-b from-background to-card/30">
+        <section className="border-b border-border bg-linear-to-b from-background to-card/30">
           <div className="container-wide py-8">
             <div className="space-y-6">
               {/* Search Bar */}
