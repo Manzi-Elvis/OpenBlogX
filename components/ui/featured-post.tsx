@@ -14,7 +14,7 @@ export function FeaturedPost({ post }: FeaturedPostProps) {
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-accent/10 via-transparent to-secondary/10" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-0 relative z-10">
-        <div className="md:col-span-1 bg-gradient-to-br from-accent via-secondary to-quaternary h-48 md:h-auto flex items-center justify-center p-6 shadow-lg">
+        <div className="md:col-span-1 bg-linear-to-br from-accent via-secondary to-quaternary h-48 md:h-auto flex items-center justify-center p-6 shadow-lg">
           <div className="text-center animate-slide-up">
             <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white/20 backdrop-blur-lg text-white mb-4 shadow-lg">
               <Flame className="w-10 h-10" />
