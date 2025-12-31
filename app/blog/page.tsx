@@ -231,7 +231,7 @@ export default function BlogPage() {
             <div className="space-y-6">
               {/* Search Bar */}
               <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-secondary/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="absolute inset-0 bg-linear-to-r from-accent/20 to-secondary/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="relative">
                   <Search className="absolute left-4 top-3.5 h-5 w-5 text-foreground-light" />
                   <input
