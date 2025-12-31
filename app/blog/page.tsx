@@ -271,7 +271,7 @@ export default function BlogPage() {
                       onClick={() => setSelectedTag(tag)}
                       className={`px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 ${
                         selectedTag === tag
-                          ? `bg-gradient-to-r ${gradient} text-white shadow-lg scale-105`
+                          ? `bg-linear-to-r ${gradient} text-white shadow-lg scale-105`
                           : "bg-card border-2 border-border text-foreground hover:border-accent/50 hover:bg-accent/5"
                       }`}
                     >
