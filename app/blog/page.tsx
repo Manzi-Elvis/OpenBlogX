@@ -183,7 +183,7 @@ export default function BlogPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-background via-accent/5 to-background border-b border-border">
+        <section className="relative overflow-hidden bg-linear-to-br from-background via-accent/5 to-background border-b border-border">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute -top-40 -right-40 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
             <div className="absolute top-1/3 -left-40 w-80 h-80 bg-secondary/10 rounded-full blur-3xl" />
