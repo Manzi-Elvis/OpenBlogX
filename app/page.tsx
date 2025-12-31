@@ -50,7 +50,7 @@ export default function Home() {
               {/* Hero Image */}
               <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 bg-linear-to-br from-accent/20 to-secondary/20" />
-                <div className="w-full h-full bg-gradient-to-br from-accent/10 via-secondary/10 to-tertiary/10 flex items-center justify-center">
+                <div className="w-full h-full bg-linear-to-br from-accent/10 via-secondary/10 to-tertiary/10 flex items-center justify-center">
                   <div className="text-center">
                     <Sparkles className="w-20 h-20 text-accent/50 mx-auto mb-4" />
                     <p className="text-foreground-light">Beautiful content awaits</p>
@@ -112,7 +112,7 @@ export default function Home() {
               ].map((feature, i) => (
                 <div key={i} className="card group cursor-pointer">
                   <div
-                    className={`w-12 h-12 rounded-lg bg-gradient-to-r ${feature.color} p-2.5 mb-4 group-hover:scale-110 transition-transform`}
+                    className={`w-12 h-12 rounded-lg bg-linear-to-r ${feature.color} p-2.5 mb-4 group-hover:scale-110 transition-transform`}
                   >
                     <feature.icon className="w-full h-full text-white" />
                   </div>
