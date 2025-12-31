@@ -37,7 +37,7 @@ export function ArticleHeader({ post }: ArticleHeaderProps) {
               <div className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center overflow-hidden flex-shrink-0">
                 {post.author.avatar ? (
                   <img
-                    src={post.author.avatar || "/placeholder.svg"}
+                    src={post.author.avatar || "/placeholder.png"}
                     alt={post.author.name}
                     className="h-full w-full object-cover"
                   />

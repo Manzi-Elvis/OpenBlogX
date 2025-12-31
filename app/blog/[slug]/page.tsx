@@ -171,7 +171,7 @@ export default function BlogDetailPage() {
                 <div className="h-16 w-16 rounded-full bg-accent/10 flex items-center justify-center shrink-0 overflow-hidden">
                   {post.author.avatar ? (
                     <img
-                      src={post.author.avatar || "/placeholder.svg"}
+                      src={post.author.avatar || "/placeholder.png"}
                       alt={post.author.name}
                       className="h-full w-full object-cover"
                     />

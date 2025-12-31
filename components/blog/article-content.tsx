@@ -19,7 +19,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
             {block.type === "image" && (
               <figure className="my-8">
                 <img
-                  src={block.content.url || "/placeholder.svg"}
+                  src={block.content.url || "/placeholder.png"}
                   alt={block.content.alt}
                   className="rounded-lg w-full"
                 />

@@ -133,7 +133,7 @@ export function EditorBlock({ block, onUpdate, onDelete }: EditorBlockProps) {
             />
             {block.content.url && (
               <img
-                src={block.content.url || "/placeholder.svg"}
+                src={block.content.url || "/placeholder.png"}
                 alt={block.content.alt}
                 className="rounded-lg max-h-96"
               />

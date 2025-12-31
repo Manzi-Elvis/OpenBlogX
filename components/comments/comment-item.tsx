@@ -22,7 +22,7 @@ export function CommentItem({ comment, onReply }: CommentItemProps) {
         <div className="h-10 w-10 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
           {comment.author.avatar ? (
             <img
-              src={comment.author.avatar || "/placeholder.svg"}
+              src={comment.author.avatar || "/placeholder.png"}
               alt={comment.author.name}
               className="h-full w-full object-cover"
             />

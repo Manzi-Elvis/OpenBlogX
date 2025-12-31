@@ -28,7 +28,7 @@ export function ProfileHeader({ user, isOwnProfile, onEditClick }: ProfileHeader
             <div className="relative -mt-16 md:-mt-20 flex-shrink-0">
               <div className="h-32 w-32 md:h-40 md:w-40 rounded-full bg-accent/20 flex items-center justify-center border-4 border-background overflow-hidden">
                 {user.avatar ? (
-                  <img src={user.avatar || "/placeholder.svg"} alt={user.name} className="h-full w-full object-cover" />
+                  <img src={user.avatar || "/placeholder.png"} alt={user.name} className="h-full w-full object-cover" />
                 ) : (
                   <span className="text-4xl font-bold text-accent">{user.name[0]}</span>
                 )}

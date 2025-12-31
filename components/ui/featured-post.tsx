@@ -61,7 +61,7 @@ export function FeaturedPost({ post }: FeaturedPostProps) {
               <div className="h-12 w-12 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center overflow-hidden shadow-lg">
                 {post.author.avatar ? (
                   <img
-                    src={post.author.avatar || "/placeholder.svg"}
+                    src={post.author.avatar || "/placeholder.png"}
                     alt={post.author.name}
                     className="h-full w-full object-cover"
                   />
