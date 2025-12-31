@@ -234,7 +234,7 @@
 
   /* Gradient backgrounds */
   .bg-gradient-accent {
-    @apply bg-gradient-to-r from-accent via-accent-light to-secondary;
+    @apply bg-linear-to-r from-accent via-accent-light to-secondary;
   }
 
   .bg-gradient-warm {
