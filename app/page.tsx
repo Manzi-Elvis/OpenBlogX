@@ -161,7 +161,7 @@ export default function Home() {
               ].map((feature, i) => (
                 <div key={i} className="flex gap-6 animate-slide-up" style={{ animationDelay: `${i * 100}ms` }}>
                   <div
-                    className={`w-16 h-16 rounded-xl ${feature.color} flex items-center justify-center flex-shrink-0 shadow-lg`}
+                    className={`w-16 h-16 rounded-xl ${feature.color} flex items-center justify-center shrink-0 shadow-lg`}
                   >
                     <feature.icon className="w-8 h-8 text-white" />
                   </div>
