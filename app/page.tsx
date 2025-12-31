@@ -39,7 +39,7 @@ export default function Home() {
                     {[1, 2, 3].map((i) => (
                       <div
                         key={i}
-                        className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-secondary border-2 border-background"
+                        className="w-8 h-8 rounded-full bg-linear-to-br from-accent to-secondary border-2 border-background"
                       />
                     ))}
                   </div>
