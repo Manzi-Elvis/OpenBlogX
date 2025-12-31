@@ -49,7 +49,7 @@ export default function Home() {
 
               {/* Hero Image */}
               <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20" />
+                <div className="absolute inset-0 bg-linear-to-br from-accent/20 to-secondary/20" />
                 <div className="w-full h-full bg-gradient-to-br from-accent/10 via-secondary/10 to-tertiary/10 flex items-center justify-center">
                   <div className="text-center">
                     <Sparkles className="w-20 h-20 text-accent/50 mx-auto mb-4" />
