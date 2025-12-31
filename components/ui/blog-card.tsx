@@ -42,7 +42,7 @@ export function BlogCard({ post }: BlogCardProps) {
 
         {/* Author and Meta */}
         <div className="flex items-center gap-3 pt-2">
-          <div className="h-9 w-9 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center overflow-hidden shadow-md">
+          <div className="h-9 w-9 rounded-full bg-linear-to-br from-accent to-secondary flex items-center justify-center overflow-hidden shadow-md">
             {post.author.avatar ? (
               <img
                 src={post.author.avatar || "/placeholder.png"}
