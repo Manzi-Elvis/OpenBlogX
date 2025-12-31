@@ -238,7 +238,7 @@
   }
 
   .bg-gradient-warm {
-    @apply bg-gradient-to-r from-secondary to-quaternary;
+    @apply bg-linear-to-r from-secondary to-quaternary;
   }
 
   .text-gradient {
