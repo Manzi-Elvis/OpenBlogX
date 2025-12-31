@@ -189,7 +189,7 @@
   }
 
   .btn-primary {
-    @apply bg-gradient-to-r from-accent to-accent-light text-white;
+    @apply bg-linear-to-r from-accent to-accent-light text-white;
   }
 
   .btn-primary:hover {
