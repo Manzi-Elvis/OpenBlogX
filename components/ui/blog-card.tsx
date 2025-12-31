@@ -17,7 +17,7 @@ export function BlogCard({ post }: BlogCardProps) {
   ]
 
   return (
-    <article className="group card bg-gradient-to-br from-card to-card/50 border border-border/50 hover:border-accent/30 hover:shadow-2xl hover:scale-105">
+    <article className="group card bg-linear-to-br from-card to-card/50 border border-border/50 hover:border-accent/30 hover:shadow-2xl hover:scale-105">
       <div className="flex flex-col gap-4">
         <div className="flex flex-wrap gap-2">
           {post.tags.slice(0, 2).map((tag, idx) => {
