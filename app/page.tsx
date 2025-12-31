@@ -125,7 +125,7 @@ export default function Home() {
         </section>
 
         {/* New Features Section */}
-        <section className="border-b border-border bg-gradient-to-b from-accent/5 to-background">
+        <section className="border-b border-border bg-linear-to-b from-accent/5 to-background">
           <div className="container-wide py-20">
             <div className="mb-16">
               <h2 className="text-h2 mb-4">Powerful Features</h2>
