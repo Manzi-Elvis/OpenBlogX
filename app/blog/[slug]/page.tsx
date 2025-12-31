@@ -168,7 +168,7 @@ export default function BlogDetailPage() {
           <div className="container-wide py-12 md:py-16">
             <div className="max-w-3xl mx-auto">
               <div className="rounded-lg border border-border bg-card p-8 flex gap-6">
-                <div className="h-16 w-16 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
+                <div className="h-16 w-16 rounded-full bg-accent/10 flex items-center justify-center shrink-0 overflow-hidden">
                   {post.author.avatar ? (
                     <img
                       src={post.author.avatar || "/placeholder.svg"}
