@@ -19,7 +19,7 @@ export function CommentItem({ comment, onReply }: CommentItemProps) {
       {/* Comment */}
       <div className="flex gap-4">
         {/* Avatar */}
-        <div className="h-10 w-10 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
+        <div className="h-10 w-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0 overflow-hidden">
           {comment.author.avatar ? (
             <img
               src={comment.author.avatar || "/placeholder.png"}
