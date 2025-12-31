@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <main>
         {/* Hero Section with Gradient Background */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 border-b border-border">
+        <section className="relative overflow-hidden bg-linear-to-br from-background via-background to-accent/5 border-b border-border">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute -top-40 -right-40 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
             <div className="absolute top-1/2 -left-40 w-80 h-80 bg-secondary/10 rounded-full blur-3xl" />
