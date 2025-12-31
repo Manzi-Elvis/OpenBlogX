@@ -11,7 +11,7 @@ interface FeaturedPostProps {
 export function FeaturedPost({ post }: FeaturedPostProps) {
   return (
     <article className="group relative rounded-2xl border border-accent/30 bg-linear-to-br from-accent/5 via-card to-secondary/5 overflow-hidden transition-all duration-300 hover:border-accent/60 hover:shadow-2xl">
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-accent/10 via-transparent to-secondary/10" />
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-linear-to-r from-accent/10 via-transparent to-secondary/10" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-0 relative z-10">
         <div className="md:col-span-1 bg-linear-to-br from-accent via-secondary to-quaternary h-48 md:h-auto flex items-center justify-center p-6 shadow-lg">
