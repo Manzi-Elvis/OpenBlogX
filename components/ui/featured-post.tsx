@@ -58,7 +58,7 @@ export function FeaturedPost({ post }: FeaturedPostProps) {
           {/* Author and Stats */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center overflow-hidden shadow-lg">
+              <div className="h-12 w-12 rounded-full bg-linear-to-br from-accent to-secondary flex items-center justify-center overflow-hidden shadow-lg">
                 {post.author.avatar ? (
                   <img
                     src={post.author.avatar || "/placeholder.png"}
