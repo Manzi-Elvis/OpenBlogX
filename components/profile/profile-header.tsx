@@ -18,7 +18,7 @@ export function ProfileHeader({ user, isOwnProfile, onEditClick }: ProfileHeader
       <div className="container-wide py-8 md:py-12">
         <div className="max-w-4xl mx-auto">
           {/* Cover area */}
-          <div className="h-32 md:h-48 bg-gradient-to-r from-accent/20 to-accent/5 rounded-lg mb-8 flex items-center justify-center">
+          <div className="h-32 md:h-48 bg-linear-to-r from-accent/20 to-accent/5 rounded-lg mb-8 flex items-center justify-center">
             <div className="text-center text-foreground-light">Profile Background</div>
           </div>
 
