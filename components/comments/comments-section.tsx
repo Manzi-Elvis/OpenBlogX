@@ -107,7 +107,7 @@ export function CommentsSection({ postId }: CommentsSectionProps) {
               {[...Array(2)].map((_, i) => (
                 <div key={i} className="animate-pulse">
                   <div className="flex gap-4">
-                    <div className="h-10 w-10 rounded-full bg-border flex-shrink-0"></div>
+                    <div className="h-10 w-10 rounded-full bg-border shrink-0"></div>
                     <div className="flex-1 space-y-2">
                       <div className="h-4 bg-border rounded w-1/4"></div>
                       <div className="h-16 bg-border rounded"></div>
