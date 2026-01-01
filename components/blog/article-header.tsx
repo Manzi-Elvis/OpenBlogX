@@ -34,7 +34,7 @@ export function ArticleHeader({ post }: ArticleHeaderProps) {
           <div className="space-y-6">
             {/* Author and date */}
             <div className="flex items-center gap-4">
-              <div className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center overflow-hidden flex-shrink-0">
+              <div className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center overflow-hidden shrink-0">
                 {post.author.avatar ? (
                   <img
                     src={post.author.avatar || "/placeholder.png"}
